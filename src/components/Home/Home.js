@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import { Type, Type2 } from "./Type";
+import { Type } from "./Type";
 
 function Home() {
   return (
@@ -14,17 +14,17 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <div style={{ display: "flex", alignItems: "center" }}>
-                <h1 style={{ paddingBottom: 15 }} className="heading">
-                  <Type2 className="hi-text"/>
-                </h1>
-                <span
+                <h1 style={{ marginRight: 10}} className="heading">
+                  Hi there!
+                  <span
                   className="wave"
                   role="img"
                   aria-labelledby="wave"
-                  style={{marginBottom: "100px", marginLeft: "10px", fontSize: "4em" }} // Adjust the fontSize value as needed
                 >
                   👋🏻
                 </span>
+                </h1>
+
               </div>
 
               <h1 className="heading-name">
