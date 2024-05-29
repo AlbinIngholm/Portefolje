@@ -255,6 +255,9 @@ button:focus {
 }
 
 .home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
@@ -324,6 +327,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+
 }
 
 .home-about-description {
@@ -336,7 +340,7 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
 }
 
 .home-about-social {
