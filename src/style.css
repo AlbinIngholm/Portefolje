@@ -15,7 +15,7 @@ body {
   color: white; /* Ensures text color is readable */
 }
   
-  .purple {
+  .green {
     color: var(--imp-text-color) !important;
   }
 
@@ -31,13 +31,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    margin-left: 65px;
     height: 100%;
     z-index: 999999;
-    background-color: # ;
+    background-color: #1c344c; /* Or any other valid color */
     background-image: url(./Assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
+  
 
   #preloader-none {
     opacity: 0;

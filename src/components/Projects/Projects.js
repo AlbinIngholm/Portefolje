@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Projects </strong>
+          My Recent <strong className="green">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are some of my recent projects
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Trivia App"
-              description="Trivia App made with MudBlazor and Auth0. Collaborated with Håkon Sunde."
+              description="Trivia App made with MudBlazor and Auth0. Collaborated with Håkon Sunde. "
               ghLink="https://github.com/AlbinIngholm/TriviaApp_MudBlazor/"
             />
           </Col>
