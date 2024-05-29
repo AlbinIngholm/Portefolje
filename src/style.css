@@ -3,6 +3,7 @@ html {
     to bottom left,
     #287D7D,
     #1C344C    /* steel blue */
+
   );
 
   --image-gradient: linear-gradient(
@@ -154,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+    height: 1.4em !important;
+    width: 2.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -504,6 +505,15 @@ button:focus {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+}
+
+.img-fluid {
+  border-radius: 20%; 
+  margin-top: -17px;
+  margin-left: 17px;
+  padding: 5px;
+  width: 350px;
+
 }
 
 .card-img-top {
