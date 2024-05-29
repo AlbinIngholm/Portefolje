@@ -1,5 +1,5 @@
 :root {
-  --section-background-color: #1C344C; /* Steel blue solid color */
+  --section-background-color: #1c344c; /* Steel blue solid color */
   --image-gradient: #1C344C; /* Steel blue solid color */
   --imp-text-color: #91C46C;
 }
@@ -520,7 +520,14 @@ body {
     width: 350px;
 
   }
+  .img-fluid1 {
+    border-radius: 20%; 
+    margin-top: -100px;
+    margin-left: 17px;
+    padding: 5px;
+    width: 350px;
 
+  }
   .card-img-top {
     padding: 20px !important;
     opacity: 0.8 !important;
