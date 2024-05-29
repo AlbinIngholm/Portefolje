@@ -17,7 +17,7 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a 17 year old Computer Science / Graphic Design student'
+              I'm a 17 year old Computer Science / Graphic Design student
               <br />
               <br />I specialize in the
               <i>
