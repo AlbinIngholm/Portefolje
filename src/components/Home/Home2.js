@@ -25,17 +25,7 @@ function Home2() {
               </i>
               <br />
 
-              I am a forward thinking programmer with experience in native app development and webdesign. <b className="green">Node.js</b> and
-              <i>
-                <b className="green">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="green"> React.js and Next.js</b>
-              </i>
+              I am a forward thinking programmer with experience in native app development and webdesign.
             </p>
           </Col>
         </Row>

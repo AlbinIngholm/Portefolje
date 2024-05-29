@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import me from "../../Assets/avatar2.jpg";
+import me from "../../Assets/Firefly_Avatar.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import trivia from "../../Assets/trivia.jpg";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="green">Projects </strong>
+          My Recent <strong className="green">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are some of my recent projects
@@ -34,10 +34,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={trivia}
               isBlog={false}
               title="Trivia App"
-              description="Trivia App made with MudBlazor and Auth0. Collaborated with Håkon Sunde. "
+              description="Trivia App made with MudBlazor and Auth0. The App retrieves Trivia information from a Trivia API. Collaborated with Håkon Sunde."
               ghLink="https://github.com/AlbinIngholm/TriviaApp_MudBlazor/"
             />
           </Col>
@@ -47,9 +47,9 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Online code and markdown editor built with React.js. The editor supports HTML, CSS, and JS code with an instant preview. It also includes a markdown editor for building README files, supporting GFM, custom HTML tags, a toolbar, and instant preview. Both editors support auto-save using Local Storage."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="Used the plant disease dataset from Kaggle and trained an image classifier model using the PyTorch framework. The model was able to detect diseased and healthy leaves of 14 unique plants, achieving an accuracy of 98% using the Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -68,8 +68,8 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="AI For Social Good"
+              description="Used Natural Language Processing to detect suicide-related posts and users' suicide ideation in cyberspace, aiding in suicide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -80,10 +80,9 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Trained a CNN classifier using the FER-2013 dataset with Keras and TensorFlow. The classifier successfully predicted various human emotions with an accuracy of 60.1%. Used OpenCV to detect faces in an image and pass them to the classifier to predict the emotion."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/" <--------Please include a demo link here
             />
           </Col>
         </Row>
