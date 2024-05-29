@@ -10,6 +10,9 @@ function Type() {
           "Student",
           ".NET Developer",
           "Problem-Solver",
+          "Graphic Designer",
+          "Web Developer",
+
         ],
         autoStart: true,
         loop: true,
@@ -19,25 +22,4 @@ function Type() {
   );
 }
 
-function Type2() {
-  return (
-    <Typewriter
-      options={{
-        strings: [
-          "Hi There!",
-          "Hei der!",
-          "Bonjour!",
-          "Hola!",
-          "Ciao!",
-          "Konnichiwa!",
-          "Aloha!",
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
-  );
-}
-
-export { Type, Type2 };
+export { Type };

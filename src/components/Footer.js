@@ -13,10 +13,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Theme Made By SB</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} Albin Ingholm</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -29,9 +29,6 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            </li>
-            <li className="social-icons">
-
             </li>
             <li className="social-icons">
               <a
