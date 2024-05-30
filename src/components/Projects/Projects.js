@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import rc from "../../Assets/rc.png";
+import vinterlandskap from "../../Assets/vinterlandskap.JPG";
+import pxlawards from "../../Assets/pxlawards.jpg";
 import me from "../../Assets/Firefly_Avatar.jpg";
-import suicide from "../../Assets/Projects/suicide.png";
+import punk from "../../Assets/Punk_1.jpg";
 import trivia from "../../Assets/trivia.jpg";
 
 function Projects() {
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={me}
               isBlog={false}
               title="Portfolio"
-              description="This portfolio webpage. Made with React.js, React-Bootstrap, Node.js, Express.js, CSS3, Netlify, VSCode"
+              description="This portfolio webpage. Made with React.js, React-Bootstrap, Node.js, Express.js, CSS3, Netlify, VSCode and Adobe XD."
               ghLink="https://github.com/AlbinIngholm/Portefolje"
               demoLink="https://ingholm.software"
             />
@@ -44,45 +44,41 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={pxlawards}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor built with React.js. The editor supports HTML, CSS, and JS code with an instant preview. It also includes a markdown editor for building README files, supporting GFM, custom HTML tags, a toolbar, and instant preview. Both editors support auto-save using Local Storage."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Publikumsprisen Contribution"
+              description="My contribution for the 'Pixel Awards', an annual event organized by SR."
+              demoLink="#" // # fordi knappen må dukke opp, koden tar seg av å ikke vise det.
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={rc}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained an image classifier model using the PyTorch framework. The model was able to detect diseased and healthy leaves of 14 unique plants, achieving an accuracy of 98% using the Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="My passion"
+              description="School project where I was interveiwed about RC Racing, edited in Premiere Pro. Collaborated with Lukas Oppegård Berntsen av Phoomdet Wannapeera."
+              demoLink="https://www.youtube.com/watch?v=WJzRfR8T_3E"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={punk}
               isBlog={false}
-              title="AI For Social Good"
-              description="Used Natural Language Processing to detect suicide-related posts and users' suicide ideation in cyberspace, aiding in suicide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Punk Self-Portrait"
+              description="Punk Self-Portrait edited in Photoshop. For the Konseptutviling and Programmering Course."
+              demoLink="#"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={vinterlandskap}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using the FER-2013 dataset with Keras and TensorFlow. The classifier successfully predicted various human emotions with an accuracy of 60.1%. Used OpenCV to detect faces in an image and pass them to the classifier to predict the emotion."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/" <--------Please include a demo link here
+              title="Winter Landscape"
+              description="Winter Landscape photos shot with my iPhone, edited in Photoshop. For the Produksjon og Historiefortelling Course."
+              demoLink="#"
             />
           </Col>
         </Row>
@@ -92,3 +88,4 @@ function Projects() {
 }
 
 export default Projects;
+

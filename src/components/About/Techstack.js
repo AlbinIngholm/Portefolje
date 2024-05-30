@@ -8,6 +8,10 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
+import {
+  SiAdobe,
+} from "react-icons/si";
+
 
 function Techstack() {
   return (
@@ -29,6 +33,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobe />
       </Col>
     </Row>
   );
