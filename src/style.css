@@ -14,7 +14,10 @@ body {
   background-color: var(--section-background-color); /* Use solid color */
   color: white; /* Ensures text color is readable */
 }
-  
+
+.contact-section {
+  color: #ffff;
+}
   .green {
     color: var(--imp-text-color) !important;
   }
