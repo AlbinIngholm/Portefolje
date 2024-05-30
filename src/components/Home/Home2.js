@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -11,7 +8,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col lg={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
@@ -23,13 +20,12 @@ function Home2() {
                 <b className="green"> .NET Framework</b>
               </i>
               <br />
-
-              I am a forward thinking programmer with experience in native app development and webdesign.
+              I am a forward-thinking programmer with experience in native app development and web design.
             </p>
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col lg={12} className="home-about-social">
             <h1>Reach out!</h1>
             <p>
               Feel free to <span className="green">connect </span>with me

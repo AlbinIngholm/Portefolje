@@ -598,6 +598,10 @@ body {
     .tech-icons {
       margin: 10px !important;
     }
+    .home-about-description {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 
   .tech-icons:hover {
